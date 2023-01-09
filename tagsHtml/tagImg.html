@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS Descomplicado</title>
+        <meta charset="UTF-8">
+    </head>
+    <header style="margin: 0;">
+        <div style="height: 20vh;
+                        background-color: #051933;
+                        border-bottom: 2px inset #a3ffbf">
+
+        </div>
+        <div style="height: 10vh;background-color:#093366;">
+
+        </div>
+    </header>
+
+    <body style="margin: 0;
+                    background-color: #fafbfd;">
+        <div style="width: 90vw;
+                        ">
+            <h1 style="font-family: inter, sans-serif;
+                    font-size: 50px;
+                    padding: 32px 0px 0px;
+                    text-align: center;
+                    color: #093366;">Inserindo Imagens - Utilizando A Tag &lt;img/&gt;</h1>
+        </div>
+        <img src="/Curso de HTML e CSS/HTML_CSS_Descomplicado/img/programming-background-collageE.jpg" width="100%">
+        <div>
+            <div style="font-family: sans-serif;
+                        font-size: 16px;
+                        color:#093366;
+                        width: max-width;
+                        margin: 0px 100px;
+                        ">
+
+                <p>
+                    A inserção de imagens acontece à partir da tag &lt;img/&gt;. A tag &lt;img/&gt; possui o parâmetro 
+                    'src'(<i>source</i>), onde deve ser colocado o endereço da imagem.                      
+                </p>
+                <p>
+                    Esse 'endereço' da imagem pode ser uma url externa ao seu site, como por exemplo um banco de 
+                    imagens, outro site, pode ser um caminho de uma página do seu próprio site ou um caminho de 
+                    um arquivo interno do seu próprio projeto.
+                </p>
+                <p>
+                    Veja abaixo um exemplo de implementação usando: uma url externa, onde é fornecida a url de
+                     uma imagens do google:
+                </p>
+                <p>
+                    <ol>
+                        <li>Uma url externa, onde uma é utilizada uma url do google;</li>
+                        <li>Um arquivo em uma pasta interna ao projeto</li>
+                    </ol>
+                </p>
+                <div style="padding: 10px;
+                                background-color: #ffffff;
+                                border: 1px solid #093366;
+                                box-shadow: 3px 3px 2px #888888;                            
+                                font-family: monospace;">
+                    <p style="color:#093366">
+                        <ol>
+                            <li> &lt;<color style="color: #f34510">img src="https://www.google.com.br/google.jpg"
+                                 alt="Logomarca do Google"</color>&gt;</li>
+                                <li>&lt;<color style="color: #f34510">img src="/img/google.jpg"
+                                    alt="Logomarca do Google"</color>&gt;</li>
+                        </ol>
+                       
+                    </p>
+
+                </div>
+                
+                <p>
+                    Observe abaixo a implementação do exemplo 1:
+                </p>
+                <div style="padding: 10px;
+                    background-color: #ffffff;
+                    border: 1px solid #093366;
+                    box-shadow: 3px 3px 2px #888888;
+                    text-align: center;                            
+                    ">
+                    <p>
+                    <p>
+                       
+                        <img src="https://www.google.com.br/google.jpg" alt="Logomarca do Google"/>
+                    </p>
+                    </p>
+
+                </div>
+                <div style="width: 100%;
+                                text-align: center;">
+
+                </div>
+                <div style="text-align: justify;">
+                    <p style="text-align: justify;">
+                        No exemplo implementado é possível observar ainda o parâmetro 'alt'. Deve-se levar
+                        em conta que o exemplo implementado utiliza uma url externa, portanto depende da disponibilidade
+                        de um site de terceiros fora do controle ou responsabilidade do criador do site. 
+                    </p>
+                    <p>
+                        Caso o site saia do ar, ou a imagem mude de endereço, o parâmetro alt garante que pelo menos, 
+                        haverá no local da imagem, uma pequena descrição do quê deveria ser a imagem, já que a imagem
+                        provavelmente não aparecerá e um link quebrado será exibido.
+                    </p>
+                    <p>
+                         Outro ponto importante, é que, se o usuário estiver utilizando um leitor de tela para deficientes
+                         visuais, quando o mouse for passado sobre a imagem, a descrição será lida, tornando assim, o site
+                         mais acessível a pessoas com necessidades especiais.
+                    </p>
+                    <p>
+                        Par implementação do exemplo 2 tal como está, deve-se ter em mente que a pasta img, que possui 
+                        a imagem google.jpg deve estar dentro da pasta onde se encontra o aquivo da página que a está 
+                        chamando, caso contrário, o caminho do arquivo deverá ser passado completo.
+                    </p>
+                    <h2 style="font-family: inter, sans-serif;
+                    font-size: 36px;
+                    padding: 32px 0px 0px;
+                    text-align: center;
+                    color: #093366;">Outras Informações Que Podem Ser Relevantes.</h2>
+
+                    <p>
+                        O nome da tag &lt;img&gt; deriva de <i>image</i>, em português, "imagem".
+                    </p>
+                    <p>
+                        O parâmetro alt é opcional, porém altamente recomendado.
+                    </p>
+                    <p>
+                        Além do parâmetro alt, o desenvolvedor do site também pode definir o tamanho que a imagem irá
+                        aparecer, usando os parâmetros "width" para largura na tela e "height" para altura. Os valores
+                        devem ser forncecidos como píxels(px), ponto(pt), ou outra medida que faça sentido para quem 
+                        está estruturando o site, como as medidas relativas por exemplo.
+                    </p>
+                    <p>
+                        Caso o desenvolvedor não defina um tamanho, será utilizado o tamanho padrão da imagem, porém,
+                        se a opção form para definir um tamanho, é altamente recomendado que seja informado apenas uma
+                        das dimensões, largura ou altura, pois a dimensão que não foi informada se ajustará automaticamente.                       
+                    </p>
+                    <p>
+                        Caso sejam informados os 2 valores e eles não correspondam à proporção correta da imagem, pode
+                        ser que a imagem fique distorcida. 
+                    </p>
+                    <p>
+                       Apenas para não deixar a explicação vaga, veja um exemplo de como um tamanho pode ser informado: width="20px".
+                    </p>
+                </div>
+                <div style="display:flex;">
+                    <div style="width: 100%;
+                                    text-align: left;">
+                        <h4><a href="/Curso de HTML e CSS/HTML_CSS_Descomplicado/index.html">Página Principal</a></h4>
+                    </div>
+                    <div style="width: 200px;
+                                text-align: right;">
+                        <small>
+                            <h4 style="margin-bottom: 5px;">L. Farineli</h4>
+                            <time datetime="2023-01-08 19:55">
+                                Atualizado em 08/01/2023 </time>
+                        </small>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+    </body>
+
+</html>
