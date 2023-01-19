@@ -34,24 +34,50 @@
                         margin: 0px 100px;
                         ">
                 <p> 
-                    Para iniciar um arquivo html, é necessário que primeiramente, o arquivo seja nomeado com a extensão <b>.html</b> 
-                    e depois colocar a tag <b>&lt;!DOCTYPE&GT;</b> no início do arquivo. Pode ser escrita da forma que foi demonstrado, ou seja
-                    em maiúsculo e sem fechamento, ou ainda em minúsculo ou só com a primeira letra maiúscula, o resultado é o mesmo.
-                </p>        
-
+                    Para iniciar um arquivo html, é necessário que primeiramente, o arquivo seja nomeado com a extensão <b>.html</b>, ou seja,
+                    o arquivo receberá o nome <b>algumNome.html</b>. 
+                    Já o corpo do arquivo deverá apresentar a sua primeira tag, que será <b>&lt;!DOCTYPE&GT;</b>.
+                </p>
+                <p> 
+                    Esta tag pode ser escrita da forma que foi demonstrado, ou seja em maiúsculo e sem fechamento, ou ainda em minúsculo ou
+                     só com a primeira letra maiúscula, o resultado é o mesmo.
+                </p>
                 <p>
                     É esta tag que, aliada a extensão .html do arquivo indicará para o navegador o uso do HTML5 e portanto, como abrir e 
                     executar este tipo de arquivo.
                 </p>
+                <p>
+                    Um arquivo .html é composto por tags. Uma tag possui a seguinte estrutura:
+                </p>
 
-                <p> 
-                    Logo abaixo também deve-se colocar a tag <b>&lt;html&gt;</b>, esta tag possui fechamento mas não há nada além disso. Todo o
-                    arquivo html
-                    ficará dentro destas tags.
+                <div style="padding: 10px;
+                                background-color: #ffffff;
+                                border: 1px solid #093366;
+                                box-shadow: 3px 3px 2px #888888;                            
+                                font-family: monospace;">
+                    <p style="color:#093366">
+                        &lt;<color style="color: #f34510">abertura</color>&gt; conteúdo &lt;<color style="color: #f34510">/fechamento </color>&gt;
+                       
+                    </p>
+
+                </div>
+                <p>
+                    Para fazer a tag de abertura, há o sinal de menor-que(<), o nome da tag e depois o sinal de maior-que(>). <br>
+                    Para fazer a tag de fechamento, há o sinal de menor-que(<), uma barra(/), em seguida o nome da tag e depois o sinal de maior-que(>). <br>
+                    Entre a tag de abertura e de fechamento fica o conteúdo que será exibido. Nem todas as tags possuem conteúdo, e algumas das tags que 
+                    não possuem conteúdo também não possuem tag de fechamento. Vide por exemplo a tag de <a href="tagHr.html"><b>linha horizontal &lt;hr/&gt;</b></a>. 
+                </p>
+                <p>
+                    Existem ainda tags que apesar de não possuirem conteúdo, possuem parâmetros, como por exemplo a tag <a href="tagImg.html"><b><i>image</i> &lt;img&gt;</b></a>.
                 </p>
 
                 <p> 
-                    O espaço da tag &lt;html&gt; é divido em duas partes. As tags <b>&lt;head&gt;</b> e <b>&lt;body&gt;</b>.
+                    Logo abaixo da tag <b>&lt;!DOCTYPE&GT;</b> deve-se colocar a tag <b>&lt;html&gt;</b>, esta tag possui fechamento mas não há nada além disso. Todo o
+                    <b>arquivo html</b>, isto é, o <b>conteúdo</b>, ficará dentro desta tag.
+                </p>
+
+                <p> 
+                    O espaço da tag &lt;html&gt; é divido pelo menos em duas partes. As tags <b>&lt;head&gt;</b> e <b>&lt;body&gt;</b>.
                 </p>
                 <p>
                      A tag <b>&lt;head&gt;</b> possui conteúdo que não necessáriamente será mostrado na página. Um desses conteúdos é a tag 
@@ -64,13 +90,14 @@
                     Dentro da tag <b>&lt;body&gt;</b> deve ficar todo o site propriamente dito
                 </p>
                 <p>
-                    Veja abaixo um exemplo básico de um arquivo HTML:
+                    Veja abaixo um exemplo básico de um arquivo HTML, note onde ocorrem as aberturas e fechamentos de tags:
                 </p>
                 <div style="padding: 10px;
                                 background-color: #ffffff;
                                 border: 1px solid #093366;
                                 box-shadow: 3px 3px 2px #888888;                            
-                                font-family: monospace;">
+                                font-family: monospace;
+                                margin-bottom: 70px;">
                     <p style="color:#093366">
                         &lt;<color style="color: #f34510">!DOCTYPE</color>&gt;<br/>
                         &lt;<color style="color: #f34510">html</color>&gt;<br/>
@@ -84,9 +111,8 @@
 
                         &lt;<color style="color: #f34510">/html</color>&gt;<br/>
                     </p>
-
-                </div>
-                
+                </div>                
+                <hr> 
                 
                 
                 <div style="width: 100%;
@@ -104,7 +130,7 @@
                         Esta é a estrutura básica do HTML. Outras informações poderão ser acrescentadas a tag head.
                     </p>
                     <p>
-                        Dentro da tag &lt;html&gt; podem exitir 3 divisões para conteúdos feitas com as seguintes tags:
+                        A parte do site chamada comumente de body pode conter apenas a tag a tag <b>&lt;body&gt;</b> ou pode existir ali 3 divisões para conteúdos feitas com as seguintes tags:
                         <ul>
                             <li>&lt;header&gt; -- para fazer um cabeçalho</li>
                             <li>&lt;body&gt;  --o corpo central do site</li>
@@ -122,8 +148,8 @@
                                     >
                             <small>
                                 <h4 style="margin-bottom: 5px;">L. Farineli</h4>
-                                <time datetime="2023-01-13 19:55">
-                                    Atualizado em 13/01/2023 </time>
+                                <time datetime="2023-01-19 19:55">
+                                    Atualizado em 19/01/2023 </time>
                             </small>
     
     
