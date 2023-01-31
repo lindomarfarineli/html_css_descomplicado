@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS Descomplicado</title>
+    <meta charset="UTF-8">
+</head>
+<header style="margin: 0;">
+    <div style="height: 20vh;
+                    background-color: #051933;
+                    border-bottom: 2px inset #a3ffbf">
+
+    </div>
+    <div style="height: 10vh;background-color:#093366;">
+
+    </div>
+</header>
+
+<body style="margin: 0;
+    background-color: #fafbfd;">
+    <div style="width: 90vw;">
+        <h1 style="font-family: inter, sans-serif;
+      font-size: 50px;
+      padding: 32px 0px 0px;
+      text-align: center;
+      color: #093366;">Quebrando Uma Linha Com a Tag &lt;Br/&gt;</h1>
+    </div>
+    <img src="/Curso de HTML e CSS/HTML_CSS_Descomplicado/img/programming-background-collageE.jpg" width="100%">
+    <div>
+        <div style="font-family: sans-serif;
+       font-size: 16px;
+       color:#093366;
+       width: max-width;
+       margin: 0px 100px;
+       ">
+            <p>
+                Várias tags quebram linha automaticamente, como por exemplo a tag <a href="tagP.html">&lt;p&gt;</a>, porém, caso se utilize
+                a tag <a href="tagA.html">&lt;a&gt;</a> e a tag <a href="tagImg.html">&lt;img&gt;</a> juntas, elas aparecerão na mesma linha, pois não possuem quebra de 
+                linha automática. Se esta não é a intensão do desenvolvedor, é sua obrigação providenciar manualmente
+                a quebra de linha. Isto é feito utizando a tag &lt;br/&gt;.
+            </p>
+
+            <p>
+                Veja o exemplo abaixo:
+            </p>
+            
+
+            <section id="negrito">
+                
+                <div style="padding: 10px;
+               background-color: #ffffff;
+               border: 1px solid #093366;
+               box-shadow: 3px 3px 2px #888888;                            
+               font-family: monospace;">
+                    <p style="color:#093366">
+                        &lt;br/&gt;
+                    </p>
+                </div>
+                <p>
+                    Note que esta tag não possui parâmetros ou propriedades e não possui tag de fechamento já que o fechamento é feito do lado direito da tag.
+                </p>        
+            </section>
+            
+            
+
+            <section id="sublinhado">
+                
+            </section>
+
+           <br>
+           <hr>
+            
+            <div style="text-align: justify;">
+
+                <h2 style="font-family: inter, sans-serif;
+   font-size: 36px;
+   padding: 32px 0px 0px;
+   text-align: center;
+   color: #093366;">Outras Informações Que Podem Ser Relevantes.</h2>
+   <p>
+        Note que esta tag não possui tag de fechamento. Caso o usuário faça algo como
+         <color style="color: red;"> &lt;br&gt;   &lt;/br&gt;</color> é considerado um erro e além disso o navegador provavelmente pulará 
+         2 linhas. Todavia caso o desenvolvedor apenas utilize a tag sem a barra, como em &lt;br&gt;,
+         é amplamente aceito e não causa erro nos navegadores. 
+   </p>
+   <p>
+        Outro detalhe importante é que este elemento deve ser utilizado em casos onde a quebra de linha de fato se faça necessária, como o 
+        caso ilustrado na explicação principal. Caso o objetivo seja escrever um texto, prefira a  tag <a href="tagP.html">&lt;p&gt;</a> ou
+        na necessidade de simplesmente aumentar espaço use a propriedade margin do css.
+    </p>
+
+
+            </div>
+            <div style="display:flex;">
+                <div style="width: 100%;
+                            text-align: left;">
+                    <h4><a href="/Curso de HTML e CSS/HTML_CSS_Descomplicado/index.html">Página Principal</a></h4>
+                </div>
+                <div style="width: 200px;
+                text-align: right;">
+                    <small>
+                    <h4 style="margin-bottom: 5px;">L. Farineli</h4>
+                    <time datetime="2023-01-15 19:55">
+                        Atualizado em 15/01/2023</time>
+                    </small>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

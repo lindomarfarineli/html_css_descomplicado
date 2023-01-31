@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS Descomplicado</title>
+    <meta charset="UTF-8">
+</head>
+<header style="margin: 0;">
+    <div style="height: 20vh;
+                    background-color: #051933;
+                    border-bottom: 2px inset #a3ffbf">
+
+    </div>
+    <div style="height: 10vh;background-color:#093366;">
+
+    </div>
+</header>
+
+<body style="margin: 0;
+    background-color: #fafbfd;">
+    <div style="width: 90vw;">
+        <h1 style="font-family: inter, sans-serif;
+      font-size: 50px;
+      padding: 32px 0px 0px;
+      text-align: center;
+      color: #093366;">Formatando um texto</h1>
+    </div>
+    <img src="/Curso de HTML e CSS/HTML_CSS_Descomplicado/img/programming-background-collageE.jpg" width="100%">
+    <div>
+        <div style="font-family: sans-serif;
+       font-size: 16px;
+       color:#093366;
+       width: max-width;
+       margin: 0px 100px;
+       ">
+            <p>
+                Nesta seção serão abordadas várias maneiras de realizar formatações à partir de tags html:
+            </p>
+            <ul>
+                <li><a href="#negrito">Negrito</a></li>
+                <li><a href="#sublinhado">Sublinhado</a></li>
+            </ul>
+
+            <section id="negrito">
+                <h2 style="font-family: inter, sans-serif;
+                font-size: 36px;
+                padding: 32px 0px 0px;
+                text-align: center;
+                color: #093366;">Colocando Um Texto Ou Uma Palavra Em Negrito</h2>
+                <p>
+                    Para colocar um texto em negrito é possível utilizar a tag &lt;strong&gt;.
+                    Veja abaixo a forma de utilização:
+                </p>
+                <div style="padding: 10px;
+               background-color: #ffffff;
+               border: 1px solid #093366;
+               box-shadow: 3px 3px 2px #888888;                            
+               font-family: monospace;">
+                    <p style="color:#093366">
+                        &lt;p&gt;Um parágrafo qualquer que conta uma <strong>&emsp;&lt;strong&gt; história
+                            &lt;/strong&gt;</strong> &emsp;de algo.&lt;/p&gt;
+                    </p>
+                </div>
+                <p>
+                    Note a palavra 'história' dentro de uma tag &lt;strong&gt;. Perceba que esta tag
+                    está dentro de um <a href="tagp.html">parágrafo</a>. Veja abaixo como ficaria o exemplo acima:
+                </p>
+                <div style="padding: 10px;
+                background-color: #ffffff;
+                border: 1px solid #093366;
+                box-shadow: 3px 3px 2px #888888;
+                text-align: center;                            
+                ">                  
+                    <p>
+                    <p>Um parágrafo qualquer que conta uma <strong>história</strong> de algo.
+                    </p>
+                                      
+                </div>
+                <p>
+                    Para mais informações, veja informações relevantes sobre <a href="#negrito2">negrito</a>.
+                </p>
+            </section>
+            <br/>
+            <hr/>
+
+            <section id="sublinhado">
+                <h2 style="font-family: inter, sans-serif;
+                font-size: 36px;
+                padding: 32px 0px 0px;
+                text-align: center;
+                color: #093366;">
+                Sublinhando Um Texto Ou Uma Palavra
+                </h2>
+                <p>
+                    Para sublinhar um texto usa-se a tag &lt;u&gt;.
+                    Veja abaixo a forma de utilização:
+                </p>
+                <div style="padding: 10px;
+                   background-color: #ffffff;
+                   border: 1px solid #093366;
+                   box-shadow: 3px 3px 2px #888888;                            
+                   font-family: monospace;">
+                    <p style="color:#093366">
+                        &lt;p&gt;Um parágrafo qualquer que conta uma <strong>&emsp;&lt;u&gt;história&lt;/u&gt;                        
+                        </strong> &emsp;de algo.&lt;/p&gt;
+                    </p>
+                </div>
+                <p>
+                    Note a palavra 'história' dentro de uma tag &lt;u&gt;. Perceba que esta tag
+                    está dentro de um <a href="/Curso de HTML e CSS/HTML_CSS_Descomplicado/tagsHtml/tagp.html">parágrafo</a>. Veja abaixo como ficaria o exemplo acima:
+                </p>
+                <div style="padding: 10px;
+                background-color: #ffffff;
+                border: 1px solid #093366;
+                box-shadow: 3px 3px 2px #888888;
+                text-align: center;                            
+                ">                  
+                    <p>
+                        <p>Um parágrafo qualquer que conta uma <u>história</u> de algo.</p>
+                    </p>
+                                      
+                </div>
+                <p>
+                    Para mais informações, veja informações relevantes sobre <a href="#sublinhado2">sublinhado</a>.
+                </p>
+                
+            </section>
+
+            <br/>
+            <hr/>
+            <div style="text-align: justify;">
+
+                <h2 style="font-family: inter, sans-serif;
+   font-size: 36px;
+   padding: 32px 0px 0px;
+   text-align: center;
+   color: #093366;">Outras Informações Que Podem Ser Relevantes.</h2>
+                <h3 id="negrito2"> Negrito</h3>
+                <p>
+                    A tag &lt;strong&gt; funciona bem com o negrito, porém, trás em si propriedades
+                    semânticas utilizadas nos motores de busca. Assim, está deve ser reservada realmente
+                    para quando é necessário criar um destaque no texto. <br/>
+                    Caso o objetivo seja
+                    simplesmente decorativo, como chamar a atenção para um vocábulo, mas que não seja algo que mereça
+                    uma atenção maior, existem outros meios de utilizar o negrito, como a tag &lt;b&gt;.
+                </p>
+
+                <h3 id="sublinhado2">Sublinhado</h3>
+
+                <p>
+                    A tag &lt;u&gt; não possui semântica, é meramente decorativa.
+                </p>
+
+
+
+            </div>
+            <div style="display:flex;">
+                <div style="width: 100%;
+                            text-align: left;">
+                    <h4><a href="/Curso de HTML e CSS/HTML_CSS_Descomplicado/index.html">Página Principal</a></h4>
+                </div>
+                <div style="width: 200px;
+                text-align: right;">
+                    <small>
+                    <h4 style="margin-bottom: 5px;">L. Farineli</h4>
+                    <time datetime="2023-01-08 19:55">
+                        Atualizado em 08/01/2023 </time>
+                    </small>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
