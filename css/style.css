@@ -1,0 +1,42 @@
+button{
+    margin-top: 15px;
+}
+
+body{
+    background-color: #fafbfd;
+}
+ 
+
+.nav-link {
+    color:whitesmoke;     
+   } a:hover{     
+    color: orange !important; 
+   }
+
+.container-p{
+    margin-top:40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}   
+
+.menu-link:hover{     
+    color: rgb(206, 8, 48) !important; 
+   }
+
+a{
+    color: #093366;
+}
+   
+
+
+
+
+
+
+  
+
+   
+   
+
