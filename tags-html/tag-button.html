@@ -1,114 +1,145 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>HTML & CSS Descomplicado</title>
-    <meta charset="UTF-8">
-</head>
-<header style="margin: 0;">
-    <div style="height: 20vh;
-                    background-color: #051933;
-                    border-bottom: 2px inset #a3ffbf">
-
-    </div>
-    <div style="height: 10vh;background-color:#093366;">
-
-    </div>
-</header>
-
-<body style="margin: 0;
-    background-color: #fafbfd;">
-    <div style="width: 90vw;">
-        <h1 style="font-family: inter, sans-serif;
-      font-size: 50px;
-      padding: 32px 0px 0px;
-      text-align: center;
-      color: #093366;">Criando Um Botão Com a Tag &lt;button&gt;</h1>
-    </div>
-    <img src="../img/programming-background-collageE.jpg" width="100%">
-    <div>
-        <div style="font-family: sans-serif;
-       font-size: 16px;
-       color:#093366;
-       width: max-width;
-       margin: 0px 100px;
-       ">
-            <p>
-                Para criar um botão basta utilizar a tag &lt;button&gt;:
-            </p>
-
-            <p>
-                Veja o exemplo abaixo:
-            </p>
-            
-
-            <section id="negrito">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <meta http-equiv="X-UA-Compatible" content="id=edge">
+        <title>HTML & CSS Fácil - Seven Lives Education</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">        
+        <link rel="icon" type="image/png" href="../img/icone-fb.png"/>
+       
+    </head>      
+    <header style="margin: 0;">
+        <nav class="navbar navbar-default bg-faded" style="background-color: #051933; border-bottom: 2px inset orange; " >
+            <div class="col" >
+                <div class="row">
+                    <a style="color: whitesmoke; margin-left: 20px;" class="navbar-brand" href="../"><img src="../img/logo-w.png" width="150px"/></a> 
+                </div>
+                <div class="row">
+                    <h5 style="color: whitesmoke;" >&emsp;&emsp;Education</h5> 
+                </div>
+               
+            </div>
+             
+        
+                <div class="container" >
+                 
+                        <li style="list-style-type: none" class="nav-link">
+                            <a class="nav-link" href="http://sevenlivestechnology.com/">Empresa</a>
+                        </li>
+                        <li style="list-style-type: none" class="nav-link">
+                            <a class="nav-link" href="http://htmlcssfacil.com/">Educacional</a>
+                        </li>
+                        <li style="list-style-type: none; margin-right: 20px;" class="nav-link">
+                            <a class="nav-link" href="http://sevenlivestechnology.com/">Sistemas Desenvolvidos</a>
+                        </li>
+                       
+                </div> 
+        </nav>
+        <div class="navbar navbar-default" style="background-color: #093366;">
+            <div class="container">
                 
-                <div style="padding: 10px;
-               background-color: #ffffff;
-               border: 1px solid #093366;
-               box-shadow: 3px 3px 2px #888888;                            
-               font-family: monospace;">
+                    <li style="list-style-type: none;"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li style="list-style-type: none;"><a class="nav-link" href="../principal/casos-de-uso.html">Casos de Uso</a></li>
+                    <li style="list-style-type: none;"><a class="nav-link" href="../principal/tags-html.html">Tags HTML</a></li>
+                    <li style="list-style-type: none;"><a class="nav-link" href="#">Propriedades CSS</a></li>
+            </div>
+            
+        </div>
+    </header>   
+
+    <div class="container-p">
+        <div class="jumbotron" style="background-color: #fafbfd; color: #093366;">
+            <img class="display-4" width="100%" src="../img/botoes.png">
+            <h1 class="display-4">Criando Um Botão Com a Tag &lt;button&gt;</h1>
+            <p class="lead">Crie botões para facilitar a navegação...e para o que mais precisar!</p>
+            <hr class="my-4">
+            <div>
+               <div style="font-size: 16px;
+                           color:#093366;
+                           width: max-width;
+                           margin: 0px 0px;
+                           ">
+   
+                   <p>
+                       As vezes é super necessário um ter botão na sua página, seja para enviar um formulário ou mesmo para fazer uma determinada
+                       confirmação.
+                       
+                   </p>
+                   <p>
+                        Para criar um botão basta utilizar a tag &lt;button&gt; como mostrado no exemplo:
+                   </p>
+                   <div class="white-board">
                     <p style="color:#093366">
                         &lt;button&gt;Clique aqui&lt;/button&gt;
                     </p>
-                </div>
-                <p>
+                   </div>
+
+                   <p style="margin-top: 10px;">
                     É óbvio que da forma como está demonstrado este botão não terá efeito algum. Em breve haverá mais explicações.<br>
-                    Veja Abaixo a implementação do exemplo:
+                    Veja Abaixo a implementação do exemplo. Perceba que o botão já é clicável:
                 </p>
-                <div style="padding: 10px;
-                background-color: #ffffff;
-                border: 1px solid #093366;
-                box-shadow: 3px 3px 2px #888888;
-                text-align: center;                            
-                ">                  
+                <div class="white-board-explication">
                     <p>
-                    <button>clique aqui</button>
-                    </p>
-                                      
-                </div>               
-            </section>
-            <br/>
-            <hr/>
+                        <button>clique aqui</button>
+                        </p>
+                </div>
 
-            <section id="sublinhado">
-                
-            </section>
+                 
+                  
+                   <div style="width: 100%;
+                                   text-align: center;">
+   
+                   </div>
+                   <div style="text-align: justify; margin-top: 10px;">
+                       <p style="text-align: justify;">
+                           Você acabou de entender como se cria um botão, é claro que há muito mais além disso. Embreve haverá uma complementação do texto.
+                       </p>
+                       
+                       <h2 style="font-family: inter, sans-serif;
+                       font-size: 36px;
+                       padding: 32px 0px 0px;
+                       text-align: center;
+                       color: #093366;">Outras Informações Que Podem Ser Relevantes.</h2>
+   
+                       
+                       
+                   </div>
+                   <div style="display:flex;">
+                       <div style="width: 100%; text-align: left;">
+                           <h4 style="margin-bottom: 5px;">L. Farineli</h4>
+                           <time datetime="2023-06-12 20:00">
+                               Atualizado em 12/06/2023 </time>
+                       </div>
+                       <div style="width: 20%; float: right;">
+                           <a  class="btn btn-primary btn-lg" style="display: inline-block ; background-color:
+                                #093366; margin-bottom: 40px;" href="../index.html" role="button">Página Principal</a>
 
+                       </div>
+                               
+                   </div>
+   
+   
+               </div>
+   
+           </div>
             
             
-            <div style="text-align: justify;">
-
-                <h2 style="font-family: inter, sans-serif;
-   font-size: 36px;
-   padding: 32px 0px 0px;
-   text-align: center;
-   color: #093366;">Outras Informações Que Podem Ser Relevantes.</h2>
-
-
-            </div>
-            <div style="display:flex;">
-                <div style="width: 100%;
-                            text-align: left;">
-                    <h4><a href="../index.html">Página Principal</a></h4>
-                </div>
-                <div style="width: 200px;
-                text-align: right;">
-                    <small>
-                    <h4 style="margin-bottom: 5px;">L. Farineli</h4>
-                    <time datetime="2023-03-14 19:55">
-                        Atualizado em 14/03/2023</time>
-                    </small>
-
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-    </div>
+        </div>            
+   </div>
 </body>
-
-</html>
+<footer>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+   crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+   crossorigin="anonymous"></script>
+   <script src="/js/bootstrap/min.js"></script> 
+</footer>
+</html>  
+         
+            
+            
+            
